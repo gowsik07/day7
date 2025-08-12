@@ -1,0 +1,15 @@
+package day7;
+public class reversewords {
+	public static void main(String[] args) {
+		        StringBuffer sb = new StringBuffer("Hello World");
+		        System.out.println("Original: " + sb);		       
+		        sb.reverse();
+		        System.out.println("Reversed: " + sb);		        
+		        String reversedString = sb.toString();
+		        String[] words = reversedString.split(" ");
+		        System.out.println("Split words:");
+		        for (String word : words) {
+		            System.out.println(word);
+		        }
+		    }
+		} 

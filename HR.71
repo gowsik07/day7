@@ -1,0 +1,14 @@
+package day7;
+import java.util.Scanner;
+public class seventyone {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String firstString = scanner.nextLine();
+        String secondString = scanner.nextLine();
+        if (firstString.equals(secondString)) {
+            System.out.println("Celestial Confirmation! The strings align.");
+        } else {
+            System.out.println("Galactic Discrepancy! The strings do not align.");
+        }
+    }
+}

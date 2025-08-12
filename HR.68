@@ -1,0 +1,11 @@
+package day7;
+	import java.util.Scanner;
+	public class sixtyeight {
+	    public static void main(String[] args) {
+	        Scanner scanner = new Scanner(System.in);
+	        String magicString = scanner.nextLine();
+	        System.out.println("The magic within the string is " + magicString);
+	        scanner.close();
+	    }
+	}
+

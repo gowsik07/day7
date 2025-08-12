@@ -1,0 +1,10 @@
+package day7;
+import java.util.Scanner;
+public class HRseventy{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String word = sc.nextLine();
+        System.out.println("Quantum revelation! The quantum length of " + word + " is " + word.length() + ".");
+        sc.close();
+    }
+}
